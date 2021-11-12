@@ -15,12 +15,15 @@
 body {
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-align: center; 
   margin-top: 10%;
+  background-color: #CEE5D0;
 }
 
 h1 {
   font-size: 50px;
+  cursor: default;
+  font-family: 'Secular One', sans-serif;
 }
 
 .timer input {
@@ -35,6 +38,7 @@ h1 {
   border: none;
   font-size: 36px;
   cursor: pointer;
+  background-color: #CEE5D0;
 }
 
 .timer button:focus {
@@ -55,4 +59,9 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#duration {
+  background-color: #CEE5D0;
+  font-family: 'Secular One', sans-serif;
 }
